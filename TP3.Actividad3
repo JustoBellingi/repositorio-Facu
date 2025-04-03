@@ -1,0 +1,5 @@
+nota = int(input("ingrese la nota del alumno: "))
+if nota >= 6:
+    print("Aprobado")
+else:
+    print("Desaprobado")
