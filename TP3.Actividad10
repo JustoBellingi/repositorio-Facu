@@ -1,0 +1,22 @@
+hemisferio = input("En qué hemisferio te encuentras? (N/S): ")
+mes = int(input("Ingresa el número del mes (1-12): "))
+dia = int(input("Ingresa el día del mes: "))
+estacion = "Primavera", "Invierno", "Verano", "Otoño"
+
+
+if hemisferio == ["N", "S"]:
+    print ("Arranquemos!")
+elif hemisferio not in ["N", "S"]:
+    print("No es correcto este hemisferio, Debes ingresar 'N' o 'S'")
+else:
+    if (mes == 12 and dia >= 21) or (1 <= mes <= 2) or (mes == 3 and dia <= 20):
+        estacion = "Invierno" if hemisferio == "S" else "Invierno"
+    elif (mes == 3 and dia >= 21) or (4 <= mes <= 5) or (mes == 6 and dia <= 20):
+        estacion = "Primavera" if hemisferio == "N" else "Primavera"
+    elif (mes == 6 and dia >= 21) or (7 <= mes <= 8) or (mes == 9 and dia <= 20):
+        estacion = "Verano" if hemisferio == "N" else "Verano"
+    elif (mes == 9 and dia >= 21) or (10 <= mes <= 11) or (mes == 12 and dia <= 20):
+        estacion = "Otoño" if hemisferio == "N" else "Otoño"
+    print(
+        f"En el hemisferio {hemisferio}, la estación en la fecha {dia}/{mes} es: {estacion}."
+    )
