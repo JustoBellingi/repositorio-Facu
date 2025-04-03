@@ -1,0 +1,9 @@
+usuario = int(input("ingrese la edad del usuario: "))
+if usuario < 12:
+    print ('Es un niño')
+elif usuario >= 12 and usuario < 18:
+    print('Es un adolescente')
+elif usuario >= 18 and usuario < 30:
+    print('Es un adulto joven')
+elif usuario >= 30:
+    print ('Es un adulto')
