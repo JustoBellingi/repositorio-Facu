@@ -4,3 +4,6 @@
 [submodule "ejercicio-facu-2"]
 	path = ejercicio-facu-2
 	url = https://github.com/JustoBellingi/ejercicio-facu-2
+[submodule "TP6estrDatos"]
+	path = TP6estrDatos
+	url = https://github.com/JustoBellingi/TP6estrDatos
