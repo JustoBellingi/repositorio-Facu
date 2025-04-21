@@ -1,0 +1,6 @@
+[submodule "TPfunciones1"]
+	path = TPfunciones1
+	url = https://github.com/JustoBellingi/TPfunciones1.git
+[submodule "ejercicio-facu-2"]
+	path = ejercicio-facu-2
+	url = https://github.com/JustoBellingi/ejercicio-facu-2
