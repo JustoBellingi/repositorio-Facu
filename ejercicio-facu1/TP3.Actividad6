@@ -1,0 +1,21 @@
+import random
+from statistics import mode, median, mean
+numerosAleatorios = [random.randint(1, 100) for i in range(50)]
+
+
+media = mean(numerosAleatorios)
+mediana = median(numerosAleatorios)
+moda = mode(numerosAleatorios)
+
+if media > mediana > moda:
+    sesgo = "Sesgo positivo"
+elif media < mediana < moda:
+    sesgo = "Sesgo negativo"
+else:
+    sesgo = "No hay sesgo"
+
+print(f"Lista de números: {numerosAleatorios}")
+print(f"Media: {media}")
+print(f"Mediana: {mediana}")
+print(f"Moda: {moda}")
+print(f"Resultado: {sesgo}")
