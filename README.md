@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # repositorio-Facu
 =======
 # ejercicio-facu1
@@ -8,3 +9,6 @@ Ejercicio facultad
 =======
 # ejercicio-facu-2
 >>>>>>> ejercicio-facu-2/main
+=======
+# listas
+>>>>>>> listas/main
